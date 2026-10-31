@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { font-family: 'Manrope', sans-serif; color: #eff4ef; background: #080c0a; font-synthesis: none; text-rendering: optimizeLegibility; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #080c0a; }
+.font-display { font-family: 'Space Grotesk', sans-serif; }
+.font-mono { font-family: 'DM Mono', monospace; }
+.text-muted { color: #8b9890; }
+.text-paper { color: #eff4ef; }
+.text-mint { color: #b8f45c; }
+.text-amber { color: #f0b35a; }
+.text-green { color: #72ddab; }
+.bg-ink { background: #080c0a; }
+.bg-panel { background: #111815; }
+.bg-mint { background: #b8f45c; }
+.text-ink { color: #080c0a; }
+.eyebrow { color: #b8f45c; font-family: 'DM Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: .18em; }
+.hero-grid { background-image: linear-gradient(rgba(184,244,92,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(184,244,92,.055) 1px, transparent 1px); background-size: 72px 72px; mask-image: linear-gradient(to bottom, black, transparent 82%); }
+.mockup-bg { background: radial-gradient(circle at 70% 30%, rgba(184,244,92,.11), transparent 42%), #0b100e; }
+.project-shell { box-shadow: 0 30px 100px rgba(0,0,0,.24); }
+::selection { background: #b8f45c; color: #080c0a; }
+button, a { -webkit-tap-highlight-color: transparent; }
+@media (prefers-reduced-motion: no-preference) { a, button, .group, .transition { transition-duration: 220ms; } }
